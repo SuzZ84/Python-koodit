@@ -1,0 +1,12 @@
+#Author: Tiia Riikonen
+#Date: 12.1.2022
+#Comments: Funktio keskiarvo, joka saa parametrina kolme kokonaislukua. Funktio tulostaa parametriensa keskiarvon.
+
+def keskiarvo(a,b,c):
+    tulos = (a+b+c)/3
+    print (f"{tulos}")
+    
+if __name__ == "__main__":
+    
+    keskiarvo(5.0,3.0,1.0)
+    keskiarvo(10.0,1.0,1.0)
