@@ -1,0 +1,16 @@
+#Date: 20.11.2021
+#Author: Tiia Riikonen
+#Comments: Ohjelma laskee syötetyistä numeroista juuren, niin kauan kunnes käyttäjä syöttää 0, joka lopettaa suorituksen. 
+#Negatiivinen luku, antaa ilmoituksen: Epäkelpoluku.
+from math import sqrt
+
+while True:
+    luku = int(input("Syötä luku:"))
+    if luku == 0:
+        print ("Lopetetaan...")
+        break
+    if luku > 0:
+        print (sqrt(luku))
+        
+    if luku < 0:
+        print ("Epäkelpo luku")
