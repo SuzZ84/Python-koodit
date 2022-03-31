@@ -1,0 +1,38 @@
+# Verottajan mukaan lahja tarkoittaa sitä, että omaisuus siirtyy toiselle henkilölle ilman korvausta. 
+# Lahjasta pitää maksaa lahjaveroa, jos samalta lahjanantajalta saatujen lahjojen arvo on kolmen vuoden 
+# aikana 5 000 euroa tai enemmän.
+
+#Lahja	           Vero alarajalla	  Veroprosentti ylimenevästä
+#
+#5 000 — 25 000	          100	         8
+#25 000 — 55 000	      1 700	        10
+#55 000 — 200 000	      4 700	        12
+#200 000 — 1 000 000	 22 100	        15
+#1 000 000 —	        142 100	        17
+#Tässä laskuriohjelma, joka laskee lahjaveron lähimpien sukulaisten antamalle lahjalle.
+
+lahja = float(input("Lahjan suuruus? "))
+if lahja < 5000:
+    print("Ei veroa!")
+
+vero = 100 + (lahja -5000) *0.08
+vero1 = 1700 + (lahja -25000)*0.10
+vero2 = 4700 + (lahja -55000)*0.12
+vero3 = 22100 + (lahja -200000)*0.15
+vero4 = 142100 + (lahja -1000000)*0.17
+
+if lahja >= 5000 and lahja < 25000:
+    print(f"Vero: {vero} euroa")
+
+if lahja >= 25000 and lahja < 55000:
+    print(f"Vero: {vero1} euroa")
+
+if lahja >= 55000 and lahja < 200000:
+    print(f"Vero: {vero2} euroa")
+
+if lahja >= 200000 and lahja < 1000000:
+    print(f"Vero: {vero3} euroa")
+
+if lahja >= 1000000:
+
+    print(f"Vero: {vero4} euroa")
