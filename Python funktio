@@ -1,0 +1,19 @@
+#Funktio samat, joka saa parametriksi merkkijonon ja kaksi 
+# merkkijonon indeksejä kuvaavaa kokonaislukua. 
+# Funktio palauttaa return-lausetta käyttäen tiedon (True tai False) siitä,
+# ovatko merkkijonon parametreina olevien indeksien 
+# osoittamissa paikoissa olevat merkit samat.
+# Jos jompikumpi indekseistä ei osu merkkijonon sisälle, 
+# palauttaa metodi False.
+
+def samat(mjono, a, b):
+    if a >= len(mjono) or b >= len(mjono):
+        return False
+    return mjono[a] == mjono[b]
+    return False
+
+if __name__ == "__main__":
+
+    print(samat("koodari", 1, 2))
+    print(samat("koodari", 1, 10))
+    print(samat("abc", 0, 3))
