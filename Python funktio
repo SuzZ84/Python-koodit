@@ -1,10 +1,11 @@
-#Funktio samat, joka saa parametriksi merkkijonon ja kaksi 
+# Author: Tiia Riikonen
+# Date: 3.1.2022
+# Comments: Funktio samat, joka saa parametriksi merkkijonon ja kaksi 
 # merkkijonon indeksejä kuvaavaa kokonaislukua. 
 # Funktio palauttaa return-lausetta käyttäen tiedon (True tai False) siitä,
 # ovatko merkkijonon parametreina olevien indeksien 
 # osoittamissa paikoissa olevat merkit samat.
-# Jos jompikumpi indekseistä ei osu merkkijonon sisälle, 
-# palauttaa metodi False.
+# Jos jompikumpi indekseistä ei osu merkkijonon sisälle, palauttaa metodi False.
 
 def samat(mjono, a, b):
     if a >= len(mjono) or b >= len(mjono):
