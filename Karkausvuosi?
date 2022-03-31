@@ -1,4 +1,6 @@
-# Käyttäjä syöttää vuoden ja ohjelma laskee, onko syötetty vuosi karkausvuosi.
+#Date: 20.11.2021
+#Author: Tiia Riikonen
+#Comments: Käyttäjä syöttää vuoden ja ohjelma laskee, onko syötetty vuosi karkausvuosi.
 
 vuosi = int(input("Anna vuosi: "))
 
