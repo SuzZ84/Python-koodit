@@ -1,0 +1,13 @@
+# Haetaan onko henkilöt keskenään nuorempia, vanhempia vai samanikäisiä.
+
+henk1 = input ("Nimi:")
+ika1 = int(input("Ikä:"))
+henk2 = input ("Nimi:")
+ika2 = int(input("Ikä:"))
+
+if ika1 > ika2:
+    print(f"Vanhempi on {henk1}")
+elif ika1 < ika2:
+    print (f"Vanhempi on {henk2}")
+elif ika1 == ika2:
+    print (f"{henk1} ja {henk2} ovat yhtä vanhoja")
