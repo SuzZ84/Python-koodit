@@ -1,4 +1,6 @@
-# Kysytään käyttäjältä pistemäärää, jonka perusteella annetaan arvosana.
+# Author: Tiia Riikonen
+# Date: 3.1.2022
+# Comments: Kysytään käyttäjältä pistemäärää, jonka perusteella annetaan arvosana.
 
 pisteet = int(input("Anna pisteet [0-100]: "))
  
