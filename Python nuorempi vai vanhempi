@@ -1,4 +1,6 @@
-# Haetaan onko henkilöt keskenään nuorempia, vanhempia vai samanikäisiä.
+#Author: Tiia Riikonen
+#Date: 20.1.2022
+#Comments: Haetaan onko henkilöt keskenään nuorempia, vanhempia vai samanikäisiä.
 
 henk1 = input ("Nimi:")
 ika1 = int(input("Ikä:"))
